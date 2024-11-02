@@ -1,0 +1,20 @@
+Début
+Fonction CheckPoint(chaine)
+Chaine 
+Voyelles = "aeiouyAEIOUY" 
+NbVoy = 0 
+NbMot = 0
+Long = len (chaine)
+Pour chaque CH dans chaine faire
+Si caractere est dans voyelles alors
+NbVoy = NbVoy + 1
+            Fin Si
+Si caractere = " " alors
+NbMot = NbMot + 1
+            Fin Si
+Fin Pour
+Ecrire(Long)
+Ecrire(NbVoy)
+Ecrice(NbMot+1)
+Fin Fonction
+Fin

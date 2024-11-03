@@ -1,0 +1,12 @@
+ALGORITHME InsertionSort
+  POUR i de 2 à n  FAIRE
+      Pos= arr[i]
+      j = i 
+      TANT QUE j > 0 ET arr[j-1] > pos FAIRE
+          arr[j] = arr[j-1]   
+          j =j - 1
+      FIN TANT QUE
+   arr[j ] = Pos 
+  FIN POUR
+RETOURNER arr
+FIN ALGORITHME
